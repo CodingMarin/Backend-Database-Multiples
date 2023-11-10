@@ -1,0 +1,13 @@
+# proyecto/Cargo.toml
+[package]
+name = "multi-database"
+version = "0.1.0"
+edition = "2021"
+
+# Dependencias del proyecto
+[dependencies]
+sqlx = "0.7.2"
+anyhow = "1.0"
+warp = "0.3"
+tokio = { version = "1", features = ["full"] }
+windows_x86_64_msvc = "0.48.5"
