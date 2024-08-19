@@ -6,7 +6,7 @@ edition = "2021"
 
 # Dependencias del proyecto
 [dependencies]
-sqlx = { version = "0.7", features = ["mysql", "postgres", "sqlite"] }
+sqlx = { version = "0.8", features = ["mysql", "postgres", "sqlite"] }
 anyhow = "1.0"
 warp = "0.3"
 serde = "1.0"
